@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bertrand-box-paradox"
+version = "0.1.0"
+description = "Visualization and simulation for Bertrand's Box Paradox"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "matplotlib>=3.8.0",
+  "numpy>=1.26.0",
+  "pandas>=2.2.0",
+]
+
+[tool.setuptools]
+packages = ["bertrand_box_paradox"]
